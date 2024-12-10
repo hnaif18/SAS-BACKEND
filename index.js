@@ -4,11 +4,7 @@ import cors from 'cors'
 import ProductRoute from './router/ProductRouter.js'
 
 const app = express();
-// mongoose.connect("mongodb://localhost:27017/fullstack_db", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
-mongoose.connect("mongodb://localhost:27017/restful_db", {
+mongoose.connect("mongodb+srv://hanifhaddad18:j4dmQv9WoNptqOPN@cluster0.owbu0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
